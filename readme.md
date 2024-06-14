@@ -6,7 +6,7 @@ The project exposes two end points
 * `GET /quote?symbol=AAPL`
 * `GET /watchlist?symbols=AAPL,INTC,TXN,NVDA,AMZN,MSFT`
 
-The `quote` API is basically a pass through of the Yahoo quote API with a reduced payload. It takes a single symbol as a query parameter. The `watchlist` API returns an array of highly reduced stock quotes suitable for a watch list. It takes a comma separated list of symbols.
+The `quote` API is basically a pass through of the Yahoo quote API with a reduced and field mapped payload. It takes a single symbol as a query parameter. The `watchlist` API returns an array of highly reduced stock quotes suitable for a watch list. It takes a comma separated list of symbols.
 
 The project is intended to be a simple example of how to expose API endpoints and map and aggregate data in Amplify Integration.
 
