@@ -89,3 +89,11 @@ An OpenAPI 3.0 doc is provided as well.
   }
 ]
 ```
+
+## Installation
+
+* Import the `StockQuote.zip` project into Amplify Integration
+* Edit the Yahoo Finance connector and enter your API Key
+  * You can get an API Key [**here**](https://financeapi.net/)
+* Enable your integrations
+* Call your API
