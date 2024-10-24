@@ -2,6 +2,8 @@
 
 A stock quote and watch list API based on [**Yahoo Finance**](https://financeapi.net/) created in Amplify Integration.
 
+Check out a more updated stock quote/watchllist API created in Amplify Integration [here](https://github.com/lbrenman/ai-stockquote-fh)
+
 The project exposes two end points
 * `GET /quote?symbol=AAPL`
 * `GET /watchlist?symbols=AAPL,INTC,TXN,NVDA,AMZN,MSFT`
